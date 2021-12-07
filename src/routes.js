@@ -1,15 +1,15 @@
 import React from 'react';
-import Login from './views/Auths/Login/Login';
-import Signin from './views/Auths/Signin/Signin';
 import Home from './views/Home/Home';
+import Others from "./views/Others/Others";
+import Others1 from "./views/Others/Others1";
 
 const routes = [
   {
     path: '/',
     children: [
       {path: '/', element: <Home/>},
-      {path: '/signin', element: <Signin/>},
-      {path: '/login', element: <Login/>}
+      {path: '/others', element: <Others/>},
+      {path: '/others1', element: <Others1/>}
     ]
   }
 ];
